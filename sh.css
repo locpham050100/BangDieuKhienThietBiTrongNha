@@ -1,0 +1,195 @@
+*{
+   font-family: Tamaho, sans-serif;
+}
+body{
+    height: 90vh;
+    display: flex;
+    background: #A7EACE;
+    overflow: hidden;
+}
+header {
+	height: 50px;
+	width: 100%;
+   font-family: tamaho;
+   margin-left: 23px;
+}
+section{
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.dashboard {
+    background-color: #F1F3F4;
+    width: 30%;
+    border-radius: 0 0 20px 15px black;
+    margin: auto;
+    padding-bottom: 90px;
+}
+h2.title {
+	margin-top:60px;
+  	font-family: Tamaho, sans-serif;
+	color: #0D1F33;
+}
+h5.date{
+	margin-left: 0px;
+	margin-top: -20px;
+	color: #939CAB;
+	text-shadow: black 0 0 0;
+	position: absolute;
+}
+.itemLR {
+	position: relative;
+}
+.itemLR h3{
+	position: absolute;
+	top: 60px;
+	left: 40px;
+	color: white;
+	font-family: Tamaho, sans-serif;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+.itemLR h5{
+	position: absolute;
+	top: 80px;
+	left: 40px;
+	color: white;
+	font-family: Tamaho, sans-serif;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+.itemBR {
+	position: relative;
+}
+.itemBR h3{
+	position: absolute;
+	top: 60px;
+	left: 40px;
+	color: white;
+	font-family: Tamaho, sans-serif;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	
+}
+.itemBR h5{
+	position: absolute;
+	top: 80px;
+	left: 40px;
+	color: white;
+	font-family: Tamaho, sans-serif;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+.itemKC {
+	position: relative;
+}
+.itemKC h3{
+	position: absolute;
+	top: 60px;
+	left: 40px;
+	color: white;
+	font-family: Tamaho, sans-serif;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	
+}
+.itemKC h5{
+	position: absolute;
+	top: 80px;
+	left: 40px;
+	color: white;
+	font-family: Tamaho, sans-serif;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+.itemBA {
+	position: relative;
+}
+.itemBA h3{
+	position: absolute;
+	top: 60px;
+	left: 40px;
+	color: white;
+	font-family: Tamaho, sans-serif;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	
+	
+}
+.itemBA h5{
+	position: absolute;
+	top: 80px;
+	left: 40px;
+	color: white;
+	font-family: Tamaho, sans-serif;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+div.LR {
+  align: center;
+  left: 25px;
+  width: 400px;
+  height: 130px;
+  box-shadow: 0 4px 8px; 
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+div.BR {
+  align: center;
+  left: 25px;
+  width: 400px;
+  height: 130px;
+  box-shadow: 0 4px 8px; 
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+div.KC {
+  align: center;
+  left: 25px;
+  width: 400px;
+  height: 130px;
+  box-shadow: 0 4px 8px; 
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+div.BA {
+  align: center;
+  left: 25px;
+  width: 400px;
+  height: 130px;
+  box-shadow: 0 4px 8px; 
+  border-radius: 15px;
+}
+.nav {
+    position: fixed;
+    bottom: 0;
+    width: 29.67%;
+    height: 55px;
+    background-color: #F7F8F9;
+    display: flex;
+    overflow-x: auto;
+    box-shadow: 0px 0px 5px 0px #D2D4DA;
+}
+.nav_link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    min-width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #C4CBD0;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.nav_link:hover {
+    background-color: #eeeeee;
+}
+.nav_icon {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.nav_icon1{
+    font-size: 20px;
+    margin-bottom: -8px;
+}
+.nav_icon2{
+    font-size: 20px;
+}

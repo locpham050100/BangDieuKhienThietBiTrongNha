@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Smart Home - Living Room</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="dashboard">
+		<header>
+			<h2>Living Room</h2>
+		</header>
+		<section>
+		  	<div class="card" id="air_info">
+		  		<div class="container">
+			  		<label class="switch" id="air_sw">
+			  			<input type="checkbox">
+			  				<span class="slider"></span>
+			  		</label>
+		  		</div>
+		  		<div class="image">
+		  			<img src="./ice-crystal-on.png">
+		  			<a href="#"><img src="./ice-crystal-off.png" id="air_off"></a>
+		  		</div>
+		  		<h3 style="margin: 60px 0 0 17px; color: #252525;">Air Conditioner</h3>
+		  		<div class="details" id="details_air"><span id="num_temp_air">25</span>&#176C</div>
+		  	</div>
+		  	<div class="card">
+		  		<div class="container">
+			  		<label class="switch" id="light_sw">
+			  			<input type="checkbox">
+			  				<span class="slider"></span>
+			  		</label>
+		  		</div>
+		  		<div class="image">
+		  			<img src="./light-on.png">
+		  			<a href="#"><img src="./light-off.png" id="light_off"></a>
+	  			</div>
+	  			<h3 style="margin: 60px 0 0 17px;">Room Lights</h3>
+		  		<div class="details" id="details_light"><span id="num_temp_light">2500</span>K</a></div>
+		  	</div>
+		  	<div class="card">
+		  		<div class="container">
+			  		<label class="switch" id="spk_sw">
+			  			<input type="checkbox">
+			  				<span class="slider"></span>
+			  		</label>
+		  		</div>
+		  		<div class="image">
+		  			<img src="./speaker-on.png">
+		  			<img src="./speaker-off.png" id="spk_off">
+	  			</div>
+	  			<h3 style="margin: 60px 0 0 17px;">Speakers</h3>
+		  		<div class="details">75&#37 Volume</div>
+		  	</div>
+		  	<div class="card">
+		  		<div class="container">
+			  		<label class="switch" id="tv_sw">
+			  			<input type="checkbox">
+			  				<span class="slider"></span>
+			  		</label>
+		  		</div>
+		  		<div class="image">
+		  			<img src="./tv-on.png">
+		  			<img src="./tv-off.png" id="tv_off">
+	  			</div>
+	  			<h3 style="margin: 60px 0 0 17px;">Speakers</h3>
+		  		<div class="details" id="dt_tv">Off</div>
+		  	</div>
+		  	<div class="card_media" id="card_media">
+		  		<img id="pic" src="./trontim.jpg">
+		  		<img id="pic-off" src="./trontim-off.jpg">
+		  		<h3 style="margin-left: 84px; transform: translateY(-5%);">Trốn tìm</h3>
+		  		<p style="margin-left: 84px; font-size: 13px; transform: translateY(-90%); color: #8C98A2; font-weight: bold;">Đen ft. MTV band</p>
+		  		<img src="./back.png" style="margin-left: 240px; margin-top: -56px; height: 13px; width: 13px;">
+		  		<img id="pause" src="./pause.png">
+		  		<img id="play" src="./play.png">
+		  		<img src="./next.png"style="margin-left: 340px; margin-top: -56px; height: 13px; width: 13px;">
+		  	</div>
+		  	<div class="card">
+		  		<div class="container">
+			  		<label class="switch" id="game_sw">
+			  			<input type="checkbox">
+			  				<span class="slider"></span>
+			  		</label>
+		  		</div>
+		  		<div class="image">
+		  			<img src="./game-on.png">
+		  			<img src="./game-off.png" id="game_off">
+	  			</div>
+	  			<h3 style="margin: 60px 0 0 17px;">PlayStation 5</h3>
+		  		<div class="details" id="dt_game">Off</div>
+		  	</div>
+		  	<div class="card">
+		  		<div class="container">
+			  		<label class="switch" id="sound_sw">
+			  			<input type="checkbox">
+			  				<span class="slider"></span>
+			  		</label>
+		  		</div>
+		  		<div class="image">
+		  			<img src="./sound-on.png">
+		  			<img src="./sound-off.png" id="sound_off">
+	  			</div>
+	  			<h3 style="margin: 60px 0 0 17px;">Sound System</h3>
+		  		<div class="details" id="dt_sound">Disconnected</div>
+		  	</div>
+		  	<div class="card_add">
+		  		<img class="plus_sign" src="./plus.png">
+		  		<p id="add">Add a new device</p>
+		  	</div>
+		  	<div class="nav">
+			    <a href="sh.html" class="nav_link" id="home">
+			      <i class="material-icons nav_icon">home</i>
+			      <span class="nav__text">Home</span>
+			    </a>
+			    <a href="#" class="nav_link" id="rooms">
+			      <i class="material-icons nav_icon">dashboard</i>
+			      <span class="nav_text">Rooms</span>
+			    </a>
+			    <a href="#" class="nav_link" id="automation">
+			      <i class="material-icons nav_icon">watch_later</i>
+			      <span class="nav_text">Automation</span>
+			    </a>
+			    <a href="#" class="nav_link" id="settings">
+			      <i class="material-icons nav_icon1">toggle_on</i>
+			      <i class="material-icons nav_icon2">toggle_off</i>
+			      <span class="nav_text">Settings</span>
+			    </a>
+	  		</div>
+	  		<div class="card_air" id="card_air">
+	  			<div class="stick" id="stick"></div>
+	  			<div class="quantity">
+	  					<div class="temp"><span id="num_temp">25</span>&#176C</div>
+	  					<div class="btn1">
+				  			<div id="dec_btn" style="font-size: 30px; color: #929AA7;"><p style="margin-top: 18px;">-</p></div>
+				  			<div id="inc_btn" style="font-size: 30px; color: #929AA7;"><p style="margin-top: 18px;">+</p></div>
+				  		</div>
+	  			</div>
+	  			<div class="btn">
+		  			<div class="cancel_btn" id="cancel_btn"><p>CANCEL</p></div>
+		  			<div class="confirm_btn" id="confirm_btn"><p>CONFIRM</p></div>
+		  		</div>
+	  		</div>
+	  		<div class="card_light" id="card_light">
+	  			<div class="stick" id="stick1"></div>
+	  			<div class="quantity">
+	  					<div class="temp"><span id="num_tempk">2500</span>K</div>
+	  					<div class="btn2">
+				  			<input type="range" min="0" max="5000" value="2500" class="range_slider" id="range_slider">
+				  			<div id="selector">
+								<div class="SelectBtn"></div>
+								<div id="selectvalue"></div>
+							</div>
+				  		</div>
+	  			</div>
+	  			<div class="btn">
+		  			<div class="cancel_btn" id="cancel_btn1"><p>CANCEL</p></div>
+		  			<div class="confirm_btn" id="confirm_btn1"><p>CONFIRM</p></div>
+		  		</div>
+	  		</div>
+		</section>
+
+  	</div>
+  	<script type="text/javascript" src="javascript.js"></script>
+</body>
+</html>

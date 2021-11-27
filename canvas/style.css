@@ -1,0 +1,11 @@
+
+#myCanvas {
+  border: 1px solid black;
+  width: 400px;
+  height: 300px;
+}
+#ctn{
+	width: 405px;
+	height: 305px;
+	margin: auto;
+}
